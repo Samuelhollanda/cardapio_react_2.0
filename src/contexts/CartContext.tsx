@@ -1,4 +1,4 @@
-import React, { createContext, useState, useContext, useMemo } from 'react';
+import { createContext, useState, useContext, useMemo } from 'react';
 import type { ReactNode } from 'react';
 // Importe os "tipos" que criamos
 import type { ICartItem } from '../types/cart';

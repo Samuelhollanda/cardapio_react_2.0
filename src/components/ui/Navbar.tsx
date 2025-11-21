@@ -2,26 +2,28 @@ import { Link } from 'react-router-dom';
 import { useCart } from '../../contexts/CartContext';
 
 export const Navbar = () => {
-  // Aqui usamos o hook para pegar a quantidade de itens
   const { itemCount } = useCart();
 
   return (
     <nav>
-      <div style={{ borderBottom: '1px solid #ccc', padding: '10px', display: 'flex', justifyContent: 'space-between' }}>
+      <div style={{ borderBottom: '1px solid #ccc', padding: '10px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         
-        {/* Logo / Título */}
-        <h3>Cardápio Digital</h3>
+        {/* MUDANÇA 1: O Título agora é um Link que leva para a Home (/home) */}
+        <Link to="/home" style={{ textDecoration: 'none', color: 'black' }}>
+            <h3>Cardápio Digital</h3>
+        </Link>
 
-        {/* Links de Navegação */}
         <div style={{ display: 'flex', gap: '15px' }}>
+          {/* MUDANÇA 2: Adicionei o link explícito para "Início" */}
+          <Link to="/home">Início</Link>
+
           <Link to="/cardapio">Cardápio</Link>
           
-          {/* Link do Carrinho mostrando a quantidade dinâmica */}
           <Link to="/carrinho">
             Carrinho ({itemCount})
           </Link>
           
-          <Link to="/">Sair</Link>
+          <Link to="/login">Sair</Link>
         </div>
       </div>
     </nav>

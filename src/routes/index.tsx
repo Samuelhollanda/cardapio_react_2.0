@@ -7,7 +7,7 @@ import { Login } from '../pages/Login'; // <--- Importe a página de Login
 import { Home } from '../pages/Home';
 import { Cardapio } from '../pages/Cardapio';
 import { Carrinho } from '../pages/Carrinho';
-import { DetalhesPedido } from '../pages/DetalhesPedido';
+import { Checkout } from '../pages/Checkout';
 
 export const AppRoutes = () => {
   // ATENÇÃO: Por enquanto, vamos deixar o Navbar e Footer 
@@ -27,7 +27,7 @@ export const AppRoutes = () => {
           <Route path="/home" element={<Home />} />
           <Route path="/cardapio" element={<Cardapio />} />
           <Route path="/carrinho" element={<Carrinho />} />
-          <Route path="/detalhes" element={<DetalhesPedido />} /> 
+          <Route path="/checkout" element={<Checkout />} /> 
           
           <Route path="*" element={<h1>Página não encontrada!</h1>} />
         </Routes>

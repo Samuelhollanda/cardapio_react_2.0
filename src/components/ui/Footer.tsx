@@ -1,8 +1,16 @@
 export const Footer = () => {
   return (
-    <nav>
-      <p>Eu sou o Footer</p>
-      {/* Coloque os <Link> do react-router-dom aqui depois */}
-    </nav>
+    <footer style={{ 
+      backgroundColor: '#333', 
+      color: 'white', 
+      padding: '20px', 
+      textAlign: 'center',
+      marginTop: '50px'
+    }}>
+      <p>© 2025 Cardápio Digital - Todos os direitos reservados.</p>
+      <p style={{ fontSize: '0.8rem', color: '#ccc' }}>
+        Desenvolvido para o trabalho de Conclusão de Curso
+      </p>
+    </footer>
   );
 };

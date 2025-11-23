@@ -8,8 +8,8 @@ export const Home = () => {
 
       {/* Uma seção extra de texto só para encher a página */}
       <div style={{ maxWidth: '800px', margin: '0 auto', padding: '20px', textAlign: 'center' }}>
-        <h2>Como funciona?</h2>
-        <div style={{ display: 'flex', justifyContent: 'space-around', marginTop: '30px' }}>
+        <h2>COMO FUNCIONA</h2>
+        <div style={{ display: 'flex', justifyContent: 'space-around', marginTop: '30px', marginLeft: '-50px' }}>
           <div>
             <h3>1. Escolha</h3>
             <p>Navegue pelo nosso cardápio delicioso.</p>

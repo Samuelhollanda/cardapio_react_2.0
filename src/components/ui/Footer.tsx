@@ -5,11 +5,11 @@ export const Footer = () => {
       color: 'white', 
       padding: '20px', 
       textAlign: 'center',
-      marginTop: '50px'
+      marginTop: '50px',
     }}>
-      <p>© 2025 Cardápio Digital - Todos os direitos reservados.</p>
+      <p>2025 Cardápio Digital</p>
       <p style={{ fontSize: '0.8rem', color: '#ccc' }}>
-        Desenvolvido para o trabalho de Conclusão de Curso
+        Desenvolvido para o trabalho da matéria de Frontend Frameworks
       </p>
     </footer>
   );

@@ -8,7 +8,7 @@ interface ButtonProps {
 
 export const Button = ({ children, onClick, variant = 'primary' }: ButtonProps) => {
   // Define cores baseadas na variante
-  const backgroundColor = variant === 'primary' ? '#007bff' : '#6c757d';
+  const backgroundColor = variant === 'primary' ? '#ff8800ff' : '#6c757d';
 
   return (
     <button 

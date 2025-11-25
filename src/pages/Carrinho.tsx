@@ -11,9 +11,9 @@ export const Carrinho = () => {
 
   if (itemCount === 0) {
     return (
-      <div style={{ padding: '20px', textAlign: 'center' }}>
+      <div style={{ padding: '20px', textAlign: 'center', fontSize: 28,  }}>
         <h2>Seu carrinho está vazio</h2>
-        <Link to="/cardapio">Voltar para o cardápio</Link>
+        <Link to="/cardapio" style={{ textDecoration: 'none', color: 'black', fontSize: 35 }}>Voltar para o cardápio</Link>
       </div>
     );
   }

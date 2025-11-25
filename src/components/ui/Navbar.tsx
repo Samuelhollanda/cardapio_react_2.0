@@ -6,10 +6,10 @@ export const Navbar = () => {
 
   return (
     <nav>
-      <div style={{ borderBottom: '1px solid #ccc', padding: '10px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+      <div style={{ backgroundColor: '#dc8d39ff', borderBottom: '1px solid #ccc', padding: '10px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         
         {/* MUDANÇA 1: O Título agora é um Link que leva para a Home (/home) */}
-        <Link to="/home" style={{ textDecoration: 'none', color: 'black', fontSize: 35 }}>
+        <Link to="/home" style={{ textDecoration: 'none', color: 'white' }}>
             <h3>Cardápio Digital</h3>
         </Link>
 

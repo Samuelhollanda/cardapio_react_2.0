@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { Button } from '../ui/Button'; // Usamos nosso botão novo!
-import pizza from '../../assets/pizza.jpg';
+import pizza from '/images/pizza-hero.jpg';
 export const Hero = () => {
   const navigate = useNavigate();
 

@@ -23,7 +23,7 @@ export const Navbar = () => {
             Carrinho ({itemCount})
           </Link>
           
-          <Link to="/login" style={{ textDecoration: 'none', color: 'black', fontSize: 30  }}>Sair</Link>
+          <Link to="/" style={{ textDecoration: 'none', color: 'black', fontSize: 30  }}>Sair</Link>
         </div>
       </div>
     </nav>

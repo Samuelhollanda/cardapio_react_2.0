@@ -7,7 +7,7 @@ export const menuItems: IProduct[] = [
     name: "X-Burger Clássico",
     description: "Pão brioche, carne suculenta de 180g, queijo cheddar derretido e maionese especial da casa.",
     price: 25.90,
-    image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: '/images/hamburguer_classico.jpg',
     category: "Lanches"
   },
   {
@@ -15,7 +15,7 @@ export const menuItems: IProduct[] = [
     name: "Double Bacon",
     description: "Para os fortes: duas carnes de 150g, muito bacon crocante, alface, tomate e molho barbecue.",
     price: 32.50,
-    image: "https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "/images/hambuerguer.jpg",
     category: "Lanches"
   },
   {
@@ -23,7 +23,7 @@ export const menuItems: IProduct[] = [
     name: "Veggie Burger",
     description: "Hambúrguer de grão de bico, rúcula, tomate seco e molho de iogurte no pão integral.",
     price: 28.00,
-    image: "https://images.unsplash.com/photo-1585238342024-78d387f4a707?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "/images/vegan_burguer.jpg",
     category: "Lanches"
   },
   {
@@ -101,7 +101,7 @@ export const menuItems: IProduct[] = [
     name: "Pudim de Leite",
     description: "Tradicional pudim de leite condensado com calda de caramelo.",
     price: 12.00,
-    image: "https://images.unsplash.com/photo-1517438407062-11c633a2862d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "/images/pudim_leite.jpg",
     category: "Sobremesas"
   }
 ];

@@ -1,39 +1,26 @@
+// --- ATUALIZAÇÃO NO ARQUIVO DE ROTAS ---
+// Atualize o arquivo: src/routes/index.tsx
 import { Routes, Route } from 'react-router-dom';
-import { Navbar } from '../components/ui/Navbar';
-import { Footer } from '../components/ui/Footer';
-
-// Importe as páginas
-import { Login } from '../pages/Login'; // <--- Importe a página de Login
+import { Layout } from '../components/ui/Layout'; // Importe o novo Layout
 import { Home } from '../pages/Home';
+import { Login } from '../pages/Login';
 import { Cardapio } from '../pages/Cardapio';
 import { Carrinho } from '../pages/Carrinho';
 import { Checkout } from '../pages/Checkout';
 
+
 export const AppRoutes = () => {
-  // ATENÇÃO: Por enquanto, vamos deixar o Navbar e Footer 
-  // aparecendo em todas as rotas. Depois, podemos criar um
-  // "Layout" para esconder isso na tela de login.
-  // Por agora, está bom assim.
   return (
-    <>
-      <Navbar /> 
-
-      <main>
-        <Routes>
-          {/* A Rota principal AGORA é o Login */}
-          <Route path="/" element={<Login />} /> 
-          
-          {/* As outras páginas mudam de caminho */}
-          <Route path="/home" element={<Home />} />
-          <Route path="/cardapio" element={<Cardapio />} />
-          <Route path="/carrinho" element={<Carrinho />} />
-          <Route path="/checkout" element={<Checkout />} /> 
-          
-          <Route path="*" element={<h1>Página não encontrada!</h1>} />
-        </Routes>
-      </main>
-
-      <Footer />
-    </>
+    <Routes>
+      {/* Envolvemos todas as rotas com o Layout principal */}
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Login />} /> {/* Rota padrão */}
+        <Route path="home" element={<Home />} />
+        <Route path="cardapio" element={<Cardapio />} />
+        <Route path="carrinho" element={<Carrinho />} />
+        <Route path="checkout" element={<Checkout />} />
+        <Route path="*" element={<h1>Página não encontrada!</h1>} />
+      </Route>
+    </Routes>
   );
 };

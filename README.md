@@ -94,7 +94,9 @@ O projeto segue uma estrutura organizada por responsabilidades:
   ├── /routes         # Configuração do React Router
   └── /types          # Interfaces TypeScript (Product, CartItem)
 ```
-🔗 Links
+
+## 🔗 Links
+
 Deploy (Aplicação Online): https://cardapio-react-2-0.vercel.app/
 
 Repositório: https://github.com/Samuelhollanda/cardapio_react_2.0

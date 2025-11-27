@@ -9,21 +9,21 @@ export const Navbar = () => {
       <div style={{ backgroundColor: '#dc8d39ff', borderBottom: '1px solid #ccc', padding: '10px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         
         {/* MUDANÇA 1: O Título agora é um Link que leva para a Home (/home) */}
-        <Link to="/home" style={{ textDecoration: 'none', color: 'white' }}>
+        <Link to="/home" style={{ textDecoration: 'none', color: 'white', fontSize: 30}}>
             <h3>Cardápio Digital</h3>
         </Link>
 
         <div style={{ display: 'flex', gap: '25px' }}>
           {/* MUDANÇA 2: Adicionei o link explícito para "Início" */}
-          <Link to="/home" style={{ textDecoration: 'none', color: 'black', fontSize: 30 }}>Início</Link> 
+          <Link to="/home" style={{ textDecoration: 'none', color: 'black', fontSize: 20}}>Início</Link> 
 
-          <Link to="/cardapio" style={{ textDecoration: 'none', color: 'black', fontSize: 30  }}>Cardápio</Link>
+          <Link to="/cardapio" style={{ textDecoration: 'none', color: 'black', fontSize: 20}}>Cardápio</Link>
           
-          <Link to="/carrinho" style={{ textDecoration: 'none', color: 'black', fontSize: 30  }}>
+          <Link to="/carrinho" style={{ textDecoration: 'none', color: 'black', fontSize: 20}}>
             Carrinho ({itemCount})
           </Link>
-          
-          <Link to="/" style={{ textDecoration: 'none', color: 'black', fontSize: 30  }}>Sair</Link>
+        
+          <Link to="/" style={{ textDecoration: 'none', color: 'black', fontSize: 20}}>Sair</Link>
         </div>
       </div>
     </nav>

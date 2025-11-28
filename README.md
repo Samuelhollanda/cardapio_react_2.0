@@ -45,7 +45,6 @@ O sistema atende a todos os requisitos técnicos propostos, incluindo:
 
 ## 📸 Screenshots
 
-*(Adicione aqui prints das telas principais para valorizar o projeto)*
 
 | Home | Cardápio | Carrinho |
 | :---: | :---: | :---: |

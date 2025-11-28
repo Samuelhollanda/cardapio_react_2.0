@@ -35,11 +35,11 @@ O sistema atende a todos os requisitos técnicos propostos, incluindo:
 
 | Nome do Aluno | Componentes Desenvolvidos / Responsabilidades |
 | :--- | :--- |
-| **Samuel de Oliveira Passos Holanda - 01822563** | Navbar, Footer, Página Home |
-| **Luis Henrique Moreira Oséas - 01805757** | Contexto do Carrinho, Página Carrinho, CartItem |
-| **Gustavo Vinicius Carvalho Rocha Silva - 01811546** | MenuItemCard, Página Cardápio, Dados (MenuData) |
-| **Josias Lima De Carvalho Neto - 01793618** | Login, Estilização Global |
-| **Bruno Emanuel Olimpio Nunes - 01856466** | Checkout, PaymentMethod, Deploy |
+| **Samuel de Oliveira Passos Holanda - 01822563** | Routes, Types, Deploy |
+| **Luis Henrique Moreira Oséas - 01805757** | MenuItemCard, Button, Cardápio |
+| **Gustavo Vinicius Carvalho Rocha Silva - 01811546** | Navbar, Hero, Home, Checkout |
+| **Josias Lima De Carvalho Neto - 01793618** | PaymentMethod, LoginForm, Login |
+| **Bruno Emanuel Olimpio Nunes - 01856466** | CardItem, Carrinho, Footer |
 
 ---
 

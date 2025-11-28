@@ -49,7 +49,7 @@ O sistema atende a todos os requisitos técnicos propostos, incluindo:
 
 | Home | Cardápio | Carrinho |
 | :---: | :---: | :---: |
-| ![Home](public//print_home.jpg) | ![Cardápio](public/print_cardapio.jpg) | ![Carrinho](public/print_cart.jpg) |
+| ![Home](public//print_home.png) | ![Cardápio](public/print_cardapio.png) | ![Carrinho](public/print_cart.png) |
 
 ---
 
